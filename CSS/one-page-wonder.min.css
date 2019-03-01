@@ -50,7 +50,7 @@ h6 {
 .navbar-custom{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: rgba(133, 193, 233, 0.7);
+    background-color: rgba(133, 193, 233, 0.85);
 }
 
 .navbar-custom .navbar-brand {
@@ -75,21 +75,28 @@ header.masthead {
     overflow: hidden;
     padding-top: calc(7rem + 72px);
     padding-bottom: 7rem;
-    background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-    background: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);
+    /*background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
+    background: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);*/
+    background-image:url(../img/watercup.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
-    background-size: cover
+    background-size: cover;
+    
 }
 
 header.masthead .masthead-content {
     z-index: 1;
-    position: relative
+    position: relative;
+    color:;
+    
 }
 
 header.masthead .masthead-content .masthead-heading {
-    font-size: 4rem
+    font-size: 4rem;
+    outline-color:#71EEB8;
+    outline-color:aliceblue;
+    
 }
 
 header.masthead .masthead-content .masthead-subheading {
@@ -183,4 +190,9 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
     -webkit-box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5);
     box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5)
+}
+
+.outline {
+    color: #71EEB8;
+    text-shadow: #000 2px 3px 4px;
 }
